@@ -1,1 +1,16 @@
-﻿
+﻿   Qt/MSBuild: 3.3.1.1
+  Reading Qt configuration (D:/Qt/Qt5.12.12/5.12.12/msvc2017_64/bin/qmake)
+   Qt: 5.12.12
+  uic UBackup.ui
+  rcc UBackup.qrc
+  moc UBackup.h
+   RCC: Warning: No resources in 'D:\D-Users\long\D-Documents\Programs\VSProjects\UBackup\UBackup.qrc'.
+  UBackup.cpp
+  main.cpp
+  qrc_UBackup.cpp
+  moc_UBackup.cpp
+  正在生成代码
+  Previous IPDB not found, fall back to full compilation.
+  All 297 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  已完成代码的生成
+  UBackup.vcxproj -> D:\D-Users\long\D-Documents\Programs\VSProjects\UBackup\x64\Release\UBackup.exe
