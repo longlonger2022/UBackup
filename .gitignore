@@ -2,6 +2,7 @@
 *.slo
 *.lo
 *.o
+*.obj
 *.a
 *.la
 *.lai
@@ -9,8 +10,14 @@
 *.so.*
 *.dll
 *.dylib
+*.exe
+*.ilk
+*.pdb
+*.idb
+*.exp
+*.lib
 
-# Qt-es
+# Qt build artifacts
 object_script.*.Release
 object_script.*.Debug
 *_plugin_import.cpp
@@ -53,4 +60,38 @@ compile_commands.json
 
 *_qmlcache.qrc
 
-.vs
+# Visual Studio
+.vs/
+*.tlog/
+*.lastbuildstate
+*.recipe
+*.idb
+*.pdb
+*.ilk
+*.obj
+BuildLog.htm
+*.suo
+*.opensdf
+*.sdf
+ipch/
+*.log
+
+# Project specific
+config.ini
+UBackup.log
+RC*
+RD*
+x64/
+UBackup/x64/
+
+# macOS
+.DS_Store
+*.DS_Store
+
+# Windows
+Thumbs.db
+ehthumbs.db
+
+# IDE
+.idea/
+.vscode/
