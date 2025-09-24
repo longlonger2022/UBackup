@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.35919.96 d17.13
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "UBackup", "UBackup.vcxproj", "{C2B5272B-AA6A-4CC5-9D3D-0676CBF0CA95}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C2B5272B-AA6A-4CC5-9D3D-0676CBF0CA95}.Debug|x64.ActiveCfg = Debug|x64
+		{C2B5272B-AA6A-4CC5-9D3D-0676CBF0CA95}.Debug|x64.Build.0 = Debug|x64
+		{C2B5272B-AA6A-4CC5-9D3D-0676CBF0CA95}.Release|x64.ActiveCfg = Release|x64
+		{C2B5272B-AA6A-4CC5-9D3D-0676CBF0CA95}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {29D37556-01E6-460C-8304-D14D920CC9AA}
+	EndGlobalSection
+EndGlobal
