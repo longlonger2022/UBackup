@@ -13,6 +13,7 @@
 #include <QEvent>
 #include <QCloseEvent>
 #include <QThread>
+#include <QCheckBox>
 
 class UBackup : public QWidget
 {
@@ -39,8 +40,12 @@ private:
     // 备份函数
     void backup(QString fromPath, QString toPath);
 
+
     bool BackupPathIsTrueFlag;
     bool isBackuping;
+    bool isShowMessageWhenBackupStart;
+    bool isShowMessageWhenBackupEnd;
+    bool isShowMessageWhenBackupError;
 
     QString BackupPath;
     
@@ -58,6 +63,7 @@ private:
     QWidget* AboutWidget;
     QWidget* HelpWidget;
     QWidget* SponsorWidget;
+    QWidget* SettingsWidget;
 
     // TrayIcon
     QSystemTrayIcon* TrayIcon;
@@ -65,19 +71,31 @@ private:
     // GroupBoxes
     QGroupBox* BackupPathGb;
     QGroupBox* StatusGb;
+    QGroupBox* AboutGb;
+
+    QGroupBox* SettingsBackupGb;
 
     // PushButtons
     QPushButton* ChoosePathBtn;
     QPushButton* AboutBtn;
     QPushButton* HelpBtn;
     QPushButton* SponsorBtn;
+    QPushButton* SettingsBtn;
     QPushButton* ImidiateBackupBtn;
+
+
+    // CheckBoxes
+    QCheckBox* SettingsShowMessageWhenBackupStartCkbx;
+    QCheckBox* SettingsShowMessageWhenBackupEndCkbx;
+    QCheckBox* SettingsShowMessageWhenBackupErrorCkbx;
 
     // Labels
     QLabel* AboutIconLabel;
     QLabel* SponsorWidgetWeChatPayLabel;
     QLabel* BackupPathIsTrueLabel;
     QLabel* BackupStatusLabel;
+    QLabel* AboutLabel;
+    QLabel* SponsorLabel;
 
     // LineEdits
     QLineEdit* BackupPathLedt;

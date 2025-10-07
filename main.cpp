@@ -1,5 +1,6 @@
 ﻿#include "UBackup.h"
 #include <QtWidgets/QApplication>
+#include <QCommandLineParser>
 
 int main(int argc, char *argv[])
 {
@@ -11,7 +12,14 @@ int main(int argc, char *argv[])
     QApplication::setWindowIcon(QIcon("img/UBackup_icon.512px.png"));
     // 关闭事件
     QApplication::setQuitOnLastWindowClosed(false);
+
+    QCommandLineParser parser;
+    parser.addOption({ "hidden", "Start with hidden window" });
+    parser.process(a);
+
     UBackup w;
-    w.show();
+    if (!parser.isSet("hidden")) {
+        w.show();
+    }
     return a.exec();
 }

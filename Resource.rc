@@ -51,8 +51,8 @@ END
 //
 
 VS_VERSION_INFO VERSIONINFO
- FILEVERSION 1,0,0,0
- PRODUCTVERSION 1,0,0,0
+ FILEVERSION 1,1,0,0
+ PRODUCTVERSION 1,1,0,0
  FILEFLAGSMASK 0x3fL
 #ifdef _DEBUG
  FILEFLAGS 0x1L
@@ -68,18 +68,18 @@ BEGIN
         BLOCK "000004b0"
         BEGIN
             VALUE "FileDescription", "UBackup"
-            VALUE "FileVersion", "1.0.0.0"
+            VALUE "FileVersion", "1.1.0.0"
             VALUE "LegalCopyright", "Copyright (C) 2025 龙ger_longer"
             VALUE "ProductName", "UBackup"
-            VALUE "ProductVersion", "1.0.0.0"
+            VALUE "ProductVersion", "1.1.0.0"
         END
         BLOCK "000404b0"
         BEGIN
             VALUE "FileDescription", "U备份"
-            VALUE "FileVersion", "1.0.0.0"
+            VALUE "FileVersion", "1.1.0.0"
             VALUE "LegalCopyright", "Copyright (C) 2025 龙ger_longer"
             VALUE "ProductName", "U备份"
-            VALUE "ProductVersion", "1.0.0.0"
+            VALUE "ProductVersion", "1.1.0.0"
         END
     END
     BLOCK "VarFileInfo"
